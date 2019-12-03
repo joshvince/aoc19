@@ -1,6 +1,5 @@
 defmodule Day1Test do
   use ExUnit.Case
-  import Aoc19.Day1
   alias Aoc19.Day1
 
   describe "Part One" do
