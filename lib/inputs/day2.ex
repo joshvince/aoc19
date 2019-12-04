@@ -2,8 +2,8 @@ defmodule Aoc19.Day2.Input do
   def fetch do
     [
       1,
-      12,
-      2,
+      0,
+      0,
       3,
       1,
       1,
