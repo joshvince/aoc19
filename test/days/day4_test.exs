@@ -15,4 +15,18 @@ defmodule Day4Test do
       refute Day4.matches_criteria(123789)
     end
   end
+
+  describe "Part Two" do
+    test "Solves first test case" do
+      assert Day4.matches_extra_criteria(112233)
+    end
+
+    test "Solves second test case" do
+      refute Day4.matches_extra_criteria(123444)
+    end
+
+    test "Solves third test case" do
+      assert Day4.matches_extra_criteria(111122)
+    end
+  end
 end
