@@ -24,4 +24,4 @@ aoc19-*.tar
 
 *.DS_Store
 
-/.elixir_ls/
+.elixir_ls/
